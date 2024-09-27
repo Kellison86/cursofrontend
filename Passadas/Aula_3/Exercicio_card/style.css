@@ -1,0 +1,32 @@
+.h1 {
+    font-family: Arial;
+}
+
+.Geral {
+    padding: 50px 50px;
+    display: inline-block;
+    background-color: #111;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+.Geral .veiculo{
+    color: #b2b2b2;
+    display: inline;
+}
+
+.Geral .valor{
+    color: #febe01;    
+    display: inline;
+}
+
+.Geral .inf1{
+    color: #b2b2b2;    
+    display: block;    
+}
+
+.Geral .inf2 {
+    color: #866116;    
+    display: block;    
+}

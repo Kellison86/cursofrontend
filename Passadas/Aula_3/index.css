@@ -1,0 +1,24 @@
+span {
+  display: inline-block;
+  background-color: #ddd;
+}
+
+.padding {
+  /* padding-top: 20px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  padding-left: 10px; */
+  padding: 2000px 200px 200px 200px;
+}
+
+.margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.border {
+  border: solid black;
+  border-width: 5px 20px;
+}

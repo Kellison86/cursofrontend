@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    border: 10px solid #000;
+    height: auto;
+}
+
+.item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+.item a {
+    text-decoration: none; /* Corrigido de "nome" para "none" */
+    bottom: 0; /* Adicionado valor para a propriedade "bottom" */
+    display: inline-block; /* Para que o link se comporte como um botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: none; /* Remover borda padrão */
+    cursor: pointer; /* Cursor de mãozinha ao passar o mouse */
+}
+
+.item a:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+.hoje {
+    background-color: yellow;
+}
+
+.amanha {
+    background-color: red;
+}
